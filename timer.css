@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.upper-container {
+    /* //border: 1px solid black; */
+    height: 60%;
+}
+
+.lower-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.rest-button {
+    background: darkgray;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px rgb(124, 124, 124) solid;
+    height: 50px;
+    width: 100px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ao5-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    min-height: 300px;
+}
+
+.ao5-panel h3 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 30px;
+}
+
+.ao5 ul {
+    list-style-type: none;
+}
+
+.ao5 li {
+    margin: 7px;
+    border: 1px solid #d6d6d6;
+    background-color: white;
+    text-align: right;
+    padding: 5px;
+    box-shadow: 3px 3px #d6d6d6;
+    font-weight: bold;
+}
+
+.ao5 li:hover {
+    background-color: lightgray;
+}
+
+.scroller {
+    width: 300px;
+    height: 250px;
+    overflow-y: auto;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
+.scramble-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    background-color: lightsteelblue;
+}
+
+#scramble {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5em;
+    width: 450px;
+}
+
+.light-panel {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    flex: 100%;
+}
+
+.light {
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid #888888;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 2px 2px #888888;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: rgb(18, 214, 18);
+}
+
+.clock-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 230px;
+    background-color: lightyellow;
+}
+
+.clock {
+    flex: 100%;
+    font-size: 5em;
+    font-weight: 700;
+    color: #585858;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.light-up {
+    background-color: coral;
+}
